@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OCR-Web/static/css/main.09e9dc27.css",
+    "main.js": "/OCR-Web/static/js/main.96ff8286.js",
+    "index.html": "/OCR-Web/index.html",
+    "main.09e9dc27.css.map": "/OCR-Web/static/css/main.09e9dc27.css.map",
+    "main.96ff8286.js.map": "/OCR-Web/static/js/main.96ff8286.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09e9dc27.css",
+    "static/js/main.96ff8286.js"
+  ]
+}
