@@ -19,7 +19,7 @@ function App() {
     setFileNotUploaded('')
     window.location.reload(false);
   }
-  const handleOCR = async () => { 
+  const handleOCR = async () => {
     if(uploadedImage){
       setIsloading(true)
       const worker = await createWorker({
@@ -27,8 +27,8 @@ function App() {
       });
   
       await worker.load();
-      await worker.loadLanguage('eng'||'hn');
-      await worker.initialize('eng'|| 'hn');
+      await worker.loadLanguage('eng');
+      await worker.initialize('eng');
   
       const { data: { text } } = await worker.recognize(uploadedImage);
   
